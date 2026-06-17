@@ -1,12 +1,8 @@
 class Entity:
-    def __init__(self):
-        pass
+    def __init__(self, name: str):
+        self.name = name
 
 class Company(Entity):
-    def __init__(self):
-        pass
-
-class Consumer(Entity):
     def __init__(self):
         pass
 
@@ -15,6 +11,10 @@ class Manufacturer(Entity):
         pass
 
 class Transport(Entity):
+    def __init__(self):
+        pass
+
+class Consumer:
     def __init__(self):
         pass
 
