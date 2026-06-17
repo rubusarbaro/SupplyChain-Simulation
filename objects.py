@@ -1,4 +1,4 @@
-class Entity():
+class Entity:
     def __init__(self):
         pass
 
@@ -18,7 +18,7 @@ class Transport(Entity):
     def __init__(self):
         pass
 
-class Facility():
+class Facility:
     def __init__(self):
         pass
 
@@ -27,6 +27,26 @@ class Plant(Facility):
         pass
 
 class Warehouse(Facility):
+    def __init__(self):
+        pass
+
+class Machine:
+    def __init__(self):
+        pass
+
+class Material:
+    def __init__(self):
+        pass
+
+class Raw_Material(Material):
+    def __init__(self):
+        pass
+
+class Assembly(Material):
+    def __init__(self):
+        pass
+
+class Final_Product(Material):
     def __init__(self):
         pass
 
