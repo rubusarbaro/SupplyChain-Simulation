@@ -18,6 +18,18 @@ class Transport(Entity):
     def __init__(self):
         pass
 
+class Facility():
+    def __init__(self):
+        pass
+
+class Plant(Facility):
+    def __init__(self):
+        pass
+
+class Warehouse(Facility):
+    def __init__(self):
+        pass
+
 class Transport:
     self.air : None
     self.motor : None
